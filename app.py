@@ -13,7 +13,7 @@ Puedes explorar el contenido del dataset y, si lo deseas, generar visualizacione
 Estas herramientas ayudan a entender mejor la distribución de los datos y detectar patrones de interés.
 """)
 # se cargan los datos
-ruta = "C:/Users/Bryan b/Desktop/Analisys de datos/repositorios/proyecto_sprint_7/proyecto_7/vehicles_us.csv"
+ruta = "vehicles_us.csv"
 car_data = pd.read_csv(ruta)
 # se realiza una carga y visualizacion del dataset utilizado para mayor confiabilidad
 st.subheader("Vista previa del dataset")
